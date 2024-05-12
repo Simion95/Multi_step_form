@@ -1,0 +1,30 @@
+.secondary-container {
+    height: 100vh;
+    background-color: var(--magnolia);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 721px) {
+
+    .main-container {
+        background-color: var(--alabaster);
+        height: 100vh;
+    }
+
+    .secondary-container {
+        position: fixed;
+        height: 65%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 650px;
+        padding: 12px;
+        background-color: var(--white);
+        box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.17);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-radius: 8px;
+    }
+}

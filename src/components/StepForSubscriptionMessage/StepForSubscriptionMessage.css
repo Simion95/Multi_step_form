@@ -1,0 +1,22 @@
+.subscription-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscription-container > img {
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.subscription-container > h2 {
+    color: var(--marine-blue);
+    margin-bottom: 12px;
+}
+
+.subscription-container > p {
+    text-align: center;
+    color: var(--cool-gray);
+    margin-bottom: 20px;
+}

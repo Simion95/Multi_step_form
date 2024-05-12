@@ -1,0 +1,59 @@
+.type-add-ons-contain {
+    padding: 0px;
+}
+
+.type-add-ons-contain input {
+ width: 20px;
+ height: 20px;  
+ margin-bottom: 0px; 
+ margin-left: 12px;
+ align-self: center;
+ cursor: pointer;
+}
+
+
+.type-add-ons-contain {
+    display: flex;
+    border: 1px solid var(--light-gray);
+    padding: 8px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.type-add-ons-contain-ticked {
+    border-color: var(--marine-blue);
+    background-color: rgba(200, 241, 255, 0.25) ;
+}
+
+.type-add-ons-contain > p {
+    color: var(--purplish-blue);
+}
+
+.type-add-ons-contain h4 {
+    color: var(--marine-blue);
+    margin-bottom: 4px;
+}
+
+.type-add-ons-contain > div {
+    display: flex;
+}
+
+.type-add-ons-contain > div > div {
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+.type-add-ons-contain > div > div p {
+    margin: 0px;
+}
+
+@media screen and (min-width: 721px) {
+    .type-add-ons-container {
+        flex-direction: column;
+    }
+
+    .type-add-ons-contain {
+        padding: 12px;
+    }
+}

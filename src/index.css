@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: "Ubuntu", sans-serif;
+}
+
+:root {
+  /* ### Primary */
+
+  --marine-blue: #02295a;
+  --purplish-blue: #3a3ede;
+  --pastel-blue: #a3d8f5;
+  --light-blue: #c8f1ff;
+  --strawberry-red: #f86e6e;
+
+  /* ### Neutral */
+
+  --cool-gray: #9fb5c4;
+  --light-gray: #d4e3f1;
+  --magnolia: #f2f5f9;
+  --alabaster: #f7fbff;
+  --white: #ffffff;
+} 

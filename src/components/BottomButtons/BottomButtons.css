@@ -1,0 +1,61 @@
+.buttons-container {
+    height: 40px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    align-items: center;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.07);
+}
+
+.button-right, .confirm-button {
+    background-color: var(--marine-blue);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 4px;
+    height: 40px;
+    color: var(--white);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.button-left {
+    bottom: 20px;
+    left: 20px;
+    padding: 12px;
+    background-color: transparent;
+    font-weight: 500;
+    color: var(--cool-gray);
+    cursor: pointer;
+    margin-right: 65%;
+    /* display: none; */
+}
+
+.confirm-button {
+    background-color: var(--purplish-blue);
+    border-radius: 4px;
+    width: 101.41px;
+}
+
+@media screen and (min-width: 721px) {
+
+    .buttons-container {
+        box-shadow: none;
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        padding: 0px;
+        width: 55%;
+        justify-content: flex-end;
+    }
+
+    .button-right, .confirm-button {
+        margin-right: 15px;
+    }
+
+    .button-left {
+        padding: 0px;
+        margin-right: 53%;
+    }
+
+}
