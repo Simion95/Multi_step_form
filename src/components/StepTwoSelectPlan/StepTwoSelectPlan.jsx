@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import './StepTwoSelectPlan.css';
 import IconArcade from '../../images/icon-arcade.svg';
 import IconAdvanced from '../../images/icon-advanced.svg';
@@ -17,6 +17,12 @@ const StepTwoSelectPlan = (props) => {
     props.setIsYearly(!props.isYearly);
     props.customer.pricePlan = undefined;
     props.customer.typePlan = undefined;
+    props.customer.priceAddOnsLargerStorage = undefined;
+    props.customer.priceAddOnsOnlineService = undefined;
+    props.customer.priceCustomizableProfile = undefined;
+    props.customer.typeAddOns = undefined;
+    props.customer.typeAddOns2 = undefined;
+    props.customer.typeAddOns3 = undefined;
     setSelectedPlan(null);
   };
   

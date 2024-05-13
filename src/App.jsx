@@ -37,7 +37,7 @@ function App() {
     <StepOneYourInfo nextStepClicked={nextStepClicked} error={error} handleChange={handleChange} customer={customer}  />,
     <StepTwoSelectPlan handleChange={handleChange} customer={customer} isYearly={isYearly} setIsYearly={setIsYearly}/>,
     <StepThreePickAddOns handleChange={handleChange} setCustomer={setCustomer} customer={customer} isYearly={isYearly}/>,
-    <StepForSummary setCurrentStep={setCurrentStep} isYearly={isYearly} customer={customer}/>,
+    <StepForSummary handleChange={handleChange} setCurrentStep={setCurrentStep} isYearly={isYearly} customer={customer}/>,
     <StepForSubscriptionMessage />
   ];
 
