@@ -61,11 +61,6 @@ function App() {
 <div className='main-container'>
   <div className='secondary-container'>
 <StepsCounter currentStep={currentStep}/>
-{/* <StepOneYourInfo /> */}
-{/* <StepTwoSelectPlan /> */}
-{/* <StepThreePickAddOns /> */}
-{/* <StepForSummary /> */}
-{/* <StepForSubscriptionMessage /> */}
 {steps[currentStep - 1]}
 
 
